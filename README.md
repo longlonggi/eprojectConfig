@@ -27,3 +27,10 @@ eslintrc.js= {
     "no-duplicate-imports": "error"
   }
 }
+prettierrc = {
+  "eslintIntegration": true,
+  "stylelintIntegration": true,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "semi": false
+}
