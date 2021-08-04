@@ -1,16 +1,20 @@
-{
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+{  
+   // 默认使用prettier格式化支持的文件
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
    "vetur.format.defaultFormatter.html": "prettier",
    "vetur.format.defaultFormatter.css": "prettier",
    "vetur.format.defaultFormatter.postcss": "prettier",
    "vetur.format.defaultFormatter.scss": "prettier",
    "vetur.format.defaultFormatter.less": "prettier",
    "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+// "vetur.format.defaultFormatter.js": "prettier",
+    // 将vetur的js格式化工具指定为vscode自带的
    "vetur.format.defaultFormatter.ts": "prettier",
    "vetur.format.defaultFormatter.sass": "sass-formatter",
    "vetur.format.defaultFormatter.js": "vscode-typescript",
    "javascript.format.semicolons": "remove",
    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    // 保存时自动修复错误
    "editor.codeActionsOnSave": {
      "source.fixAll": true
    },
