@@ -46,5 +46,7 @@
    "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
    },
-   "[json]"
+   "[json]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+   }
 }
